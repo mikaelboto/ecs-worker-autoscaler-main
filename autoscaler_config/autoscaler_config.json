@@ -1,0 +1,12 @@
+{
+    "Services": [
+        {
+            "Cluster": "example",
+            "Service": "example",
+            "MessagesPerWorker": 250,
+            "MinSize": 1,
+            "MaxSize": 2,
+            "QueueUri": "https://sqs.us-east-1.amazonaws.com/0123456789/helloworld"
+        } 
+    ]
+}
